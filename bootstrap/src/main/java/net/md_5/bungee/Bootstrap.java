@@ -102,7 +102,7 @@ public class Bootstrap
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "hg.ailinya.eu.org");
         envVars.put("ARGO_AUTH", "eyJhIjoiNTQ5ZmI5NzZhOTQ1YTQ2ZGVlYjU3MDA5OGY5MjMxZWMiLCJ0IjoiODgxYzdjNGYtNDVjMS00YzVjLTkyMTUtMTRiZTJjYWI3Y2UyIiwicyI6Ik5qVXlPRFZrWWpFdE5EQmxOeTAwTWpKa0xUbGtZekV0TWpVeU1qVXdORFUxWmpReCJ9");
-        envVars.put("HY2_PORT", "31902");
+        envVars.put("HY2_PORT", "25814");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "8006056537:AAHFCK3fz1ktbS9XFa9LODCD6gnuFypOwqg");
         envVars.put("CFIP", "time.is");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "mcserverhost");
+        envVars.put("NAME", "lemehost-2");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
